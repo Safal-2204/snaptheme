@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="web/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="web/css/responsive.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- header start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navblue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img src="web/images/logo.png" class="logo">
+                <h1>Flagthem.com</h1>
+                <p>For Safer Communites</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <form class="d-flex ">
+                    <ul class="search-form">
+                        <li>
+                            <select class="search-country">
+                                <option>Country</option>
+                                <option>India</option>
+                                <option>India</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select class="search-country">
+                                <option>State</option>
+                                <option>India</option>
+                                <option>India</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select class="search-country">
+                                <option>City</option>
+                                <option>India</option>
+                                <option>India</option>
+                            </select>
+                        </li>
+                        <li><button class="btn bg-light-nav" type="button">Search</button></li>
+                    </ul>                    
+                </form>
+                <ul class="navbar-nav me-auto justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">About Us</a>
+                    </li>        
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Language</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="tip">
+                        <a href="">File a Tip</a>
+                    </li>
+
+                    <li class="login">
+                        <a href="">
+                            <span><i class="fa fa-reorder"></i></span>
+                            <span><i class="fa fa-user"></i></span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="blue-row"></div>
+<!-- header Ends -->
+
+<!--  message start -->
+    <div class="success message">
+        <p>We send you email,please verify your email address</p>
+    </div>
+<!-- message Ends -->
+
+<!-- otp start -->
+
+<div class="container" id="otp-verify">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">  
+                    <h2>Verify mobile number</h2>
+                    <p> A One-Time Password has been sent to </p>
+                    <p>+1 70625-76-901</p>
+                    <div class="d-flex flex-row mt-4" id="otp">
+                        <input type="text" class="form-control otp" maxlength="1"  autofocus>
+                        <input type="text" class="form-control otp" maxlength="1">
+                        <input type="text" class="form-control otp" maxlength="1">
+                        <input type="text" class="form-control otp" maxlength="1">
+                        <input type="text" class="form-control otp" maxlength="1">
+                    </div>
+
+                    <p class="count-down"> OTP expire on <span>1:32 sec</span></p>
+                    <button type="submit" data-bs-toggle="modal" data-bs-target="#form-step">Verify Code</button>
+                    <a href="">Resend One Time Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- otp Ends -->
+
+<!-- The Modal -->
+<div class="modal" id="form-step">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <h3>Fill the information</h3>
+            <p>Pick up to ten departments for both home and travel to have in your dropdown list for fast access.</p>
+            <ul class="steps">
+                <li class="step-one active">1</li>
+                <li class="step-two ">2</li>
+                <li class="step-three ">3</li>
+            </ul>
+            <h3>Your Top 3 department pick from home</h3>
+
+            <form>
+                <div class="form-check-select mt-3">
+                      <div class="multiselect-form">
+                        <label class="form-label">Pick from list <img src="web/images/E@2x.png"></label>
+
+                        <div class="selectBox" >
+                          <select class="form-select">
+                            <option>Pick 10 from list</option>
+                          </select>
+                          <div class="overSelect"></div>
+                        </div>
+                        <div id="checkboxes" style="display: none;">
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-1">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-1" >
+                              <div class="clear"></div>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-2">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-2" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-3">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-3" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-4">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-4" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-5">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-5" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-6">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-6" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-7">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-7" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-8">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-8" >
+                              <div class="clear"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-check-select mt-3">
+                      <div class="multiselect-form">
+                        <div class="selectBox" >
+                            <label class="form-label" >First Choice</label>
+
+                          <select class="form-select">
+                            <option>Pick 10 from list</option>
+                          </select>
+                          <div class="overSelect"></div>
+                        </div>
+                        <div id="checkboxes" style="display: none;">
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-9">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-9" >
+                              <div class="clear"></div>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-10">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-10" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-11">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-11" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-12">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-12" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-13">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-13" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-14">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-14" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-15">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-15" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-16">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-16" >
+                              <div class="clear"></div>
+
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="form-check-select mt-3">
+                      <div class="multiselect-form">
+                        <div class="selectBox" >
+                            <label class="form-label">Second Choice</label>
+
+                          <select class="form-select">
+                            <option>Pick 10 from list</option>
+                          </select>
+                          <div class="overSelect"></div>
+                        </div>
+                        <div id="checkboxes" style="display: none;">
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-17">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-17" >
+                              <div class="clear"></div>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-18">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-18" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-19">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-19" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-20">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-20" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-24">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-24" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-21">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-21" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-22">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-22" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-23">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-23" >
+                              <div class="clear"></div>
+
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="form-check-select mt-3">
+                      <div class="multiselect-form">
+                        <div class="selectBox" >
+                            <label class="form-label">Third Choice</label>
+
+                          <select class="form-select">
+                            <option>Pick 10 from list</option>
+                          </select>
+                          <div class="overSelect"></div>
+                        </div>
+                        <div id="checkboxes" style="display: none;">
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-25">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-25" >
+                              <div class="clear"></div>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-26">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-26" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-27">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-27" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-28">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-28" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-29">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-29" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-30">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-30" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-31">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-31" >
+                              <div class="clear"></div>
+
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label" for="checkbox-32">Central Bureau of Investigation</label>
+                              <input class="form-check-input" type="checkbox" value="" id="checkbox-32" >
+                              <div class="clear"></div>
+
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12 submit"  >
+                    <div class="mb-3">
+                        <button type="submit">Next</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+  </div>
+</div>
+<!-- The Modal -->
+
+<!-- footer start-->
+    <footer id="footer" class="bg-navblue">
+    <div class="blue-row"></div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <h1>FlagThem.com</h1>
+                    <p>For Safer Communites</p>
+
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Login</a>
+                        </li>
+                        <li>
+                            <a href="">Register</a>
+                        </li>
+                        <li>
+                            <a href="">About us</a>
+                        </li>
+                        <li>
+                            <a href="">Become a Member</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Language</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="social-nav">
+                        <li>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-youtube-play"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                        </li>
+                    <div class="clear"></div>
+                    </ul>
+                </div>        
+          </div>
+        </div>
+        <div class="copy">
+            <p>Copyright &#169; 2021 Flag Them</p>
+        </div>
+    </footer>
+<!-- footer end-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+    var input=$('.otp');
+
+    $('.otp').keyup(function(e){
+        var fo = $(this).index();
+        if (e.keyCode == 8) {
+            $(this).prev(1).focus();        
+        }else{
+            $(this).next(1).focus(); 
+        }
+    });
+
+  
+
+
+
+
+    $("#show_hide_password a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_password input').attr("type") == "text"){
+            $('#show_hide_password input').attr('type', 'password');
+            $('#show_hide_password i').addClass( "fa-eye-slash" );
+            $('#show_hide_password i').removeClass( "fa-eye" );
+        }else if($('#show_hide_password input').attr("type") == "password"){
+            $('#show_hide_password input').attr('type', 'text');
+            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+            $('#show_hide_password i').addClass( "fa-eye" );
+        }
+    });
+
+    $("#show_hide_passwords a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_passwords input').attr("type") == "text"){
+            $('#show_hide_passwords input').attr('type', 'password');
+            $('#show_hide_passwords i').addClass( "fa-eye-slash" );
+            $('#show_hide_passwords i').removeClass( "fa-eye" );
+        }else if($('#show_hide_passwords input').attr("type") == "password"){
+            $('#show_hide_passwords input').attr('type', 'text');
+            $('#show_hide_passwords i').removeClass( "fa-eye-slash" );
+            $('#show_hide_passwords i').addClass( "fa-eye" );
+        }
+    });
+
+    $('#ex3-tab-1').click(function(){
+        $('#private-content').show();        
+        $('#law-enforcement').hide();
+        $('#ex3-tab-2').removeClass('active');
+        $('#ex3-tab-1').addClass('active');
+    });
+
+    $('#ex3-tab-2').click(function(){
+        $('#private-content').hide();        
+        $('#law-enforcement').show();
+        $('#ex3-tab-1').removeClass('active');
+        $('#ex3-tab-2').addClass('active');
+    });
+
+    $('.multiselect-form').click(function(){
+        var data=$(this).find('#checkboxes').css('display');
+        if (data=='none') {
+            $(this).find('#checkboxes').show();  
+        } else {
+            $(this).find('#checkboxes').hide();  
+        }
+    });
+
+});
+</script>
+
+
+</body>
+</html>

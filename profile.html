@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css">
+  <link rel="stylesheet" type="text/css" href="web/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="web/css/responsive.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js"></script>
+
+</head>
+<body>
+
+<!-- header start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navblue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img src="web/images/logo.png" class="logo">
+                <h1>Flagthem.com</h1>
+                <p>For Safer Communites</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <form class="d-flex ">
+                    <ul class="search-form">
+                        <li>
+                            <select class="search-country">
+                                <option>Country</option>
+                                <option>India</option>
+                                <option>India</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select class="search-country">
+                                <option>State</option>
+                                <option>India</option>
+                                <option>India</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select class="search-country">
+                                <option>City</option>
+                                <option>India</option>
+                                <option>India</option>
+                            </select>
+                        </li>
+                        <li><button class="btn bg-light-nav" type="button">Search</button></li>
+                    </ul>                    
+                </form>
+                <ul class="navbar-nav me-auto justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">About Us</a>
+                    </li>        
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Language</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="tip">
+                        <a href="">File a Tip</a>
+                    </li>
+
+                    <li class="login">
+                        <a href="">
+                            <span><i class="fa fa-reorder"></i></span>
+                            <span><i class="fa fa-user"></i></span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="blue-row"></div>
+<!-- header Ends -->
+
+<!-- Profile section start -->
+
+    <section id="profile" >
+        <div class="container">
+            <div class="row">
+            
+            <!-- Profile picture section start -->
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="profile-card rounded">
+                        <div class="cover-bg rounded">
+                            <div class="profile-picture">
+                                <img src="web/images/profile.png">
+                                <a href="" ><i class="fa fa-camera"></i></a>
+                            </div>
+                        </div>
+
+                        <h3 class="">Christopher M Gamez</h3>
+                        <p><i class="fa fa-lock"></i> Private Citizen</p>
+                        <a href=""><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+
+                        <div class="blue-row mt-4"></div>
+                    </div>
+                    <p>The Snap Send report is Owned and operated by Flag Theme LLC. A conpany dedicated to helping people and to support Law Enforcement . All Rights Reserved Info@Flagetheme.com </p>
+                </div>
+
+            <!-- Profile picture section end -->
+
+            <!-- Profile Edit section start -->
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 profile-edit" >
+                    <!-- tabs start -->
+                    <ul>
+                        <li class="tab-list active" data-area="my-profile"><span>My Profile</span></li>
+                        <li class="tab-list" data-area="edit-profile"><span>Edit Profile</span></li>
+                        <li class="tab-list" data-area="profile-setup"><span>Set-up</span></li>
+                        <li class="tab-list" data-area="profile-setting"><span>Profile Setting</span></li>
+                        <li class="tab-list" data-area="search-report"><span>Search Report</span></li>                    
+                    </ul>
+
+                    <!-- tab ends -->
+                    <!-- tab my-profile start -->
+
+                    <div id="my-profile"  >
+                        <div class="profile-box mt-3">
+                            <h3>Personal Information</h3>
+                            <a href=""><i class="fa fa-pencil"></i></a>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
+                                    <table>
+                                        <tr>
+                                            <th>First Name:</th>
+                                            <td>Christopher</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Username:</th>
+                                            <td>christopher_gamez</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Email address:</th>
+                                            <td>Christopher@gmail.com</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 ">
+                                    <table>
+                                        <tr>
+                                            <th>Last Name:</th>
+                                            <td>M Gamez</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Phone number:</th>
+                                            <td>9876-543-210</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Location:</th>
+                                            <td>Bellingham, Washington State, Us</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-box mt-3">
+                            <h3>Your top 3 picks from home</h3>
+                            <a href=""><i class="fa fa-pencil"></i></a>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
+                                    <table>
+                                        <tr>
+                                            <th>1<sup>st</sup> choice:</th>
+                                            <td>Central Bureau of Investigation</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2<sup>nd</sup> choice:</th>
+                                            <td>National Investigation Agency</td>
+                                        </tr>
+                                        <tr>
+                                            <th>3<sup>rd</sup> choice:</th>
+                                            <td>Directorate of Revenue Intelligence</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="profile-box mt-3">
+                            <h3>10 Travel destination department</h3>
+                            <a href=""><i class="fa fa-pencil"></i></a>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                                    <span class="profile-tags"> Aberdeen Police Department</span>
+                                    <span class="profile-tags">Airway Heights Police Department</span>
+                                    <span class="profile-tags">Algona Police Department </span>
+                                    <span class="profile-tags"> Aberdeen Police Department</span>
+                                    <span class="profile-tags">Airway Heights Police Department</span>
+                                    <span class="profile-tags">Algona Police Department </span>
+                                    <span class="profile-tags"> Aberdeen Police Department</span>
+                                    <span class="profile-tags">Airway Heights Police Department</span>
+                                    <span class="profile-tags">Algona Police Department </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- tab edit-profile start -->
+
+                    <div id="edit-profile" style="display:none;">
+                        <div class="profile-box mt-3">
+                            <h3>Edit Profile</h3>
+                            <form>
+                                <div class="row">
+                                    <h4>Personal Information</h4>
+                                    <div class="col-sm-12 col-md-12 col-lg-4 mt-3">
+                                        <div class="mb-3">
+                                            <label for="firstname" class="form-label">Firstname</label>
+                                            <input type="text" class="form-control" id="firstname"  name="firstname">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4 mt-3">
+                                        <div class="mb-3">
+                                            <label for="Lastname" class="form-label">Lastname</label>
+                                            <input type="text" class="form-control" id="Lastname"  name="Lastname">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4 mt-3">
+                                        <div class="mb-3">
+                                            <label for="Username" class="form-label">Username</label>
+                                            <input type="text" class="form-control" id="Username"  name="Username">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6" >
+                                        <div class="mb-3">
+                                            <label for="phone-number" class="form-label">Phone number</label>
+                                            <div class="phone-number">
+                                                <select class="form-select">
+                                                    <option>+1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                                <input type="text" class="form-control" id="phone-number"  name="phone-number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="email"  name="email">
+                                        </div>
+                                    </div>
+
+                                    <h4>Select Your Location</h4>
+
+                                    <div class="col-sm-12 col-md-6 col-lg-4" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Country</label>
+                                            <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 col-lg-4" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">State, Province, Territory</label>
+                                            <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 col-lg-4" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">City,Town, Village</label>
+                                            <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 col-lg-12 submit"  >
+                                        <div class="mb-3">
+                                            <button type="submit">Save Changes</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="profile-box mt-3">
+                            <h3>Change Password</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-8 password" id="show_hide_passwords" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="email"  name="email">
+                                            <div class="input-group-addons">
+                                                <a ><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                         <div class="col-sm-12 col-md-12 col-lg-4 password" id="show_hide_passwordss" >
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="email"  name="email">
+                                                <div class="input-group-addons">
+                                                    <a ><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-12 col-md-12 col-lg-4 password" id="show_hide_password" >
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label">Confirm password</label>
+                                                <input type="password" class="form-control" id="email"  name="email">
+                                                <div class="input-group-addon">
+                                                    <a ><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-12 col-md-12 col-lg-4 submit pass"  >
+                                            <div class="mb-3">
+                                                <button type="submit">Save Changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <!-- tab edit-profile ends -->
+
+                    <!-- tab profile-setup start -->
+
+                    <div id="profile-setup" style="display: none;">
+                        <div class="profile-box mt-3">
+                            <h3>Set-up</h3>
+                            <form>
+                                <div class="row">
+                                    <h4>Your Top 3 picks from home</h4>
+                                    <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
+                                        <div class="form-check-select mt-3">
+                                              <div class="multiselect-form">
+                                                <label class="form-label">Pick from list </label>
+
+                                                <div class="selectBox" >
+                                                  <select class="form-select">
+                                                    <option>Pick 10 from list</option>
+                                                  </select>
+                                                  <div class="overSelect"></div>
+                                                </div>
+                                                <div id="checkboxes" style="display: none;">
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-1">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-1" >
+                                                      <div class="clear"></div>
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-2">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-2" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-3">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-3" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-4">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-4" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-5">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-5" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-6">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-6" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-7">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-7" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-8">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-8" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-8 mt-3">
+                                        <div class="form-check-select mt-3">
+                                              <div class="multiselect-form">
+                                                <label class="form-label">Pick from list </label>
+
+                                                <div class="selectBox" >
+                                                  <select class="form-select">
+                                                    <option>Pick 10 from list</option>
+                                                  </select>
+                                                  <div class="overSelect"></div>
+                                                </div>
+                                                <div id="checkboxes" style="display: none;">
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-9">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-9" >
+                                                      <div class="clear"></div>
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-10">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-10" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-11">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-11" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-12">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-12" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-13">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-13" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-14">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-14" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-15">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-15" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-16">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-16" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4 mt-3">
+                                        <div class="form-check-select mt-3">
+                                              <div class="multiselect-form">
+                                                <label class="form-label">Pick from list </label>
+
+                                                <div class="selectBox" >
+                                                  <select class="form-select">
+                                                    <option>Pick 10 from list</option>
+                                                  </select>
+                                                  <div class="overSelect"></div>
+                                                </div>
+                                                <div id="checkboxes" style="display: none;">
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-17">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-17" >
+                                                      <div class="clear"></div>
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-18">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-18" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-19">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-19" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-20">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-20" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-24">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-24" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-21">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-21" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-22">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-22" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                      <label class="form-check-label" for="checkbox-23">Central Bureau of Investigation</label>
+                                                      <input class="form-check-input" type="checkbox" value="" id="checkbox-23" >
+                                                      <div class="clear"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+
+                                    <h4 class="mt-4">Select Your Location</h4>
+
+                                    <div class="col-sm-12 col-md-6 col-lg-4" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Country</label>
+                                            <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 col-lg-4" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">State, Province, Territory</label>
+                                            <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 col-lg-4" >
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">City,Town, Village</label>
+                                            <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div> 
+
+                                    <div class="col-sm-12 col-md-12 col-lg-12" >
+                                        <div class="mb-4">
+                                            <label for="email" class="form-label">Ten Travel destination department</label>
+                                            <div class="tag-input">
+                                                <input class="input-tags" type="text" data-role="tagsinput">
+                                            </div>
+                                        </div>
+                                    </div>          
+
+                                    <div class="col-sm-12 col-md-12 col-lg-12 submit"  >
+                                        <div class="mb-3">
+                                            <button type="submit">Save Changes</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                       
+                    </div>
+
+                    <!-- tab profile-setup ends -->
+
+                    <!-- tab profile-setting start -->
+
+                    <div id="profile-setting" style="display:none;">
+                        <div class="profile-box mt-3">
+                            <h3>Profile Setting</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                                        <ul>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/green-right.png">
+                                                    <img src="web/images/icons/redfadeout.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/green-right.png">
+                                                    <img src="web/images/icons/redfadeout.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/green-right.png">
+                                                    <img src="web/images/icons/redfadeout.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/greenfatdeout.png">
+                                                    <img src="web/images/icons/redcross.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/greenfatdeout.png">
+                                                    <img src="web/images/icons/redcross.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/greenfatdeout.png">
+                                                    <img src="web/images/icons/redcross.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/greenfatdeout.png">
+                                                    <img src="web/images/icons/redcross.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            <li>
+                                                <div class="left">
+                                                    <p>Save report in my private file after sending</p>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="web/images/icons/greenfatdeout.png">
+                                                    <img src="web/images/icons/redcross.png">
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                       
+                    </div>
+
+                    <!-- tab profile-setting ends -->
+
+                    <!-- tab search-report start -->
+
+                    <div id="search-report" style="display:none;" >
+                        <div class="mt-3">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="left submit search">
+                                        <button class="">All</button>
+                                        <form>
+                                            <input type="text" name="" placeholder="Search Location">
+                                            <button class="">Search</button>
+
+                                        </form>
+                                    </div>
+                                    <div class="right">
+                                        <select class="form-select">
+                                            <option>Filter By</option>
+
+                                            <option>A-Z</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                                    <ul>
+                                        <li class="mt-3">
+                                            <div class="left">
+                                                <h5>Incident report</h5>
+                                                <p>National Investigation Agency</p>
+                                            </div>
+                                            <div class="right">
+                                                <p>17 August 2021, 12:30 pm</p>
+                                                <p>Snap Send No: USA,WA-BU.111417-12-1</p>
+
+                                            </div>
+                                            <div class="clear"></div>
+                                        </li>
+
+                                        <li class="mt-3">
+                                            <div class="left">
+                                                <h5>Incident report</h5>
+                                                <p>National Investigation Agency</p>
+                                            </div>
+                                            <div class="right">
+                                                <p>17 August 2021, 12:30 pm</p>
+                                                <p>Snap Send No: USA,WA-BU.111417-12-1</p>
+
+                                            </div>
+                                            <div class="clear"></div>
+                                        </li>
+                                        <li class="mt-3">
+                                            <div class="left">
+                                                <h5>Incident report</h5>
+                                                <p>National Investigation Agency</p>
+                                            </div>
+                                            <div class="right">
+                                                <p>17 August 2021, 12:30 pm</p>
+                                                <p>Snap Send No: USA,WA-BU.111417-12-1</p>
+
+                                            </div>
+                                            <div class="clear"></div>
+                                        </li>
+                                        <li class="mt-3">
+                                            <div class="left">
+                                                <h5>Incident report</h5>
+                                                <p>National Investigation Agency</p>
+                                            </div>
+                                            <div class="right">
+                                                <p>17 August 2021, 12:30 pm</p>
+                                                <p>Snap Send No: USA,WA-BU.111417-12-1</p>
+
+                                            </div>
+                                            <div class="clear"></div>
+                                        </li>
+                                        <li class="mt-3">
+                                            <div class="left">
+                                                <h5>Incident report</h5>
+                                                <p>National Investigation Agency</p>
+                                            </div>
+                                            <div class="right">
+                                                <p>17 August 2021, 12:30 pm</p>
+                                                <p>Snap Send No: USA,WA-BU.111417-12-1</p>
+
+                                            </div>
+                                            <div class="clear"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       
+                    </div>
+
+                    <!-- tab search-report ends -->
+
+                    <!-- tab search-report start -->
+
+                    <div id="search-result" style="display:none;" >
+                        <div class="mt-3">
+                                <div class="back mb-3">
+                                        <a href=""><img src="web/images/icons/Black@3x.png"> Go Back</a>
+                                </div>
+                            <div class="row mt-5">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title">
+                                    
+                                    <div class="left">
+                                        <h3>Incident Report</h3>
+                                    </div>
+                                    <div class="right">
+                                        <p>20 August 2021 , 12:30 pm</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                                    <table>
+                                        <tr>
+                                            <th>Snap Send No:</th>
+                                            <td>USA, WA-BU.1114.7-12-1</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Destination Department:</th>
+                                            <td>National Investigation Agency</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Description Information:</th>
+                                            <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Location:</th>
+                                            <td>Bellingham , Washungton State,USA</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Date:</th>
+                                            <td>17 august 2021</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Time:</th>
+                                            <td>12:30 pm</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Name of People Involved:</th>
+                                            <td>1 person</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Suspect Name:</th>
+                                            <td>Andrew Jalks</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Gang Name:</th>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Photos:</th>
+                                            <td>
+                                                <ul>
+                                                    <li><img src="web/images/gun.png"></li>
+                                                    <li><img src="web/images/gun.png"></li>
+                                                    <li><img src="web/images/gun.png"></li>
+                                                    <li><img src="web/images/gun.png"></li>
+                                                    <li><img src="web/images/gun.png"></li>
+                                                    <li><img src="web/images/gun.png"></li>
+
+                                                    <li>
+                                                        <div class="social-drop">
+                                                            <a href="">
+                                                                <i class="fa fa-share-alt"></i>
+                                                            </a>
+                                                            <ul class="dropdownn">
+                                                                <li><a href=""><i class="fa fa-facebook" style="color:#0079fb;"></i> Share on Facebook</a></li>
+                                                                <li><a href=""><i class="fa fa-twitter" style="color: #00baf8;"></i> Share on Twitter</a></li>
+                                                                <li><a href=""><i class="fa fa-copy" style="color: #566ccd;"></i> Copy Link</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+
+
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Videos:</th>
+                                            <td>
+                                                <ul>
+                                                    <li class="video">
+                                                        <img src="web/images/gun.png">
+                                                        <img src="web/images/icons/playoutline@3x.png" class="video-icon" >
+                                                    </li>
+                                                    <li class="video">
+                                                        <img src="web/images/gun.png">
+                                                        <img src="web/images/icons/playoutline@3x.png" class="video-icon" >
+                                                    </li>
+                                                    <li class="video">
+                                                        <img src="web/images/gun.png">
+                                                        <img src="web/images/icons/playoutline@3x.png" class="video-icon" >
+                                                    </li>
+                                                    <li class="video">
+                                                        <img src="web/images/gun.png">
+                                                        <img src="web/images/icons/playoutline@3x.png" class="video-icon" >
+                                                    </li>
+                                                    <li class="video">
+                                                        <img src="web/images/gun.png">
+                                                        <img src="web/images/icons/playoutline@3x.png" class="video-icon" >
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="social-drop">
+                                                            <a href="">
+                                                                <i class="fa fa-share-alt"></i>
+                                                            </a>
+                                                            <ul class="dropdownn">
+                                                                <li><a href=""><i class="fa fa-facebook" style="color:#0079fb;"></i> Share on Facebook</a></li>
+                                                                <li><a href=""><i class="fa fa-twitter" style="color: #00baf8;"></i> Share on Twitter</a></li>
+                                                                <li><a href=""><i class="fa fa-copy" style="color: #566ccd;"></i> Copy Link</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+
+
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Audios:</th>
+                                            <td>USA, WA-BU.1114.7-12-1</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Witness Contact Information:</th>
+                                            <td>
+                                                <div class="witness">
+                                                    <p>Mr. Bob Smith</p>
+                                                    <p>21211 Elim Street Bellingham  </p>
+                                                    <p>(360) 222-2222</p>
+
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       
+                    </div>
+
+                    <!-- tab search-report ends -->
+
+
+
+
+
+
+                </div> 
+
+            <!-- Profile Edit section end -->
+
+
+
+            </div>
+        </div>
+    </section>
+
+<!-- Profile section ends -->
+
+
+
+
+
+<!-- footer start-->
+    <footer id="footer" class="bg-navblue">
+    <div class="blue-row"></div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <h1>FlagThem.com</h1>
+                    <p>For Safer Communites</p>
+
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Login</a>
+                        </li>
+                        <li>
+                            <a href="">Register</a>
+                        </li>
+                        <li>
+                            <a href="">About us</a>
+                        </li>
+                        <li>
+                            <a href="">Become a Member</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Language</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="social-nav">
+                        <li>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-youtube-play"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                        </li>
+                    <div class="clear"></div>
+                    </ul>
+                </div>        
+          </div>
+        </div>
+        <div class="copy">
+            <p>Copyright &#169; 2021 Flag Them</p>
+        </div>
+    </footer>
+<!-- footer end-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="web/js/taginput.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("#show_hide_password a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_password input').attr("type") == "text"){
+            $('#show_hide_password input').attr('type', 'password');
+            $('#show_hide_password i').addClass( "fa-eye-slash" );
+            $('#show_hide_password i').removeClass( "fa-eye" );
+        }else if($('#show_hide_password input').attr("type") == "password"){
+            $('#show_hide_password input').attr('type', 'text');
+            $('#show_hide_password i').removeClass( "fa-eye-slash" );
+            $('#show_hide_password i').addClass( "fa-eye" );
+        }
+    });
+
+    $("#show_hide_passwordss a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_passwordss input').attr("type") == "text"){
+            $('#show_hide_passwordss input').attr('type', 'password');
+            $('#show_hide_passwordss i').addClass( "fa-eye-slash" );
+            $('#show_hide_passwordss i').removeClass( "fa-eye" );
+        }else if($('#show_hide_passwordss input').attr("type") == "password"){
+            $('#show_hide_passwordss input').attr('type', 'text');
+            $('#show_hide_passwordss i').removeClass( "fa-eye-slash" );
+            $('#show_hide_passwordss i').addClass( "fa-eye" );
+        }
+    });
+
+    $("#show_hide_passwords a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_passwords input').attr("type") == "text"){
+            $('#show_hide_passwords input').attr('type', 'password');
+            $('#show_hide_passwords i').addClass( "fa-eye-slash" );
+            $('#show_hide_passwords i').removeClass( "fa-eye" );
+        }else if($('#show_hide_passwords input').attr("type") == "password"){
+            $('#show_hide_passwords input').attr('type', 'text');
+            $('#show_hide_passwords i').removeClass( "fa-eye-slash" );
+            $('#show_hide_passwords i').addClass( "fa-eye" );
+        }
+    });
+
+    $('#ex3-tab-1').click(function(){
+        $('#private-content').show();        
+        $('#law-enforcement').hide();
+        $('#ex3-tab-2').removeClass('active');
+        $('#ex3-tab-1').addClass('active');
+    });
+
+    $('#ex3-tab-2').click(function(){
+        $('#private-content').hide();        
+        $('#law-enforcement').show();
+        $('#ex3-tab-1').removeClass('active');
+        $('#ex3-tab-2').addClass('active');
+    });
+
+    $('.multiselect-form').click(function(){
+        var data=$(this).find('#checkboxes').css('display');
+        if (data=='none') {
+            $(this).find('#checkboxes').show();  
+        } else {
+            $(this).find('#checkboxes').hide();  
+        }
+    });
+
+    $('.tab-list').click(function(){
+        var tabOne = $('#my-profile');
+        var tabtwo = $('#edit-profile');
+        var tabthree = $('#profile-setup');
+        var tabfour = $('#profile-setting');
+        var tabfive = $('#search-report');
+
+        var location =$(this).index();
+        $('.tab-list').removeClass('active');        
+        $(this).addClass('active');
+        if(location=="0"){
+            $(tabtwo).hide();
+            $(tabthree).hide();
+            $(tabfour).hide();
+            $(tabfive).hide();            
+            $(tabOne).show();
+            $('#search-result').hide();
+        }
+
+        if(location=="1"){
+            $(tabtwo).show();
+            $(tabthree).hide();
+            $(tabfour).hide();
+            $(tabfive).hide();            
+            $(tabOne).hide();
+            $('#search-result').hide();           
+
+        }
+
+        if(location=="2"){
+            $(tabtwo).hide();
+            $(tabthree).show();
+            $(tabfour).hide();
+            $(tabfive).hide();            
+            $(tabOne).hide();
+        }
+
+        if(location=="3"){
+            $(tabtwo).hide();
+            $(tabthree).hide();
+            $(tabfour).show();
+            $(tabfive).hide();            
+            $(tabOne).hide();
+            $('#search-result').hide();           
+
+        }
+
+        if(location=="4"){
+            $(tabtwo).hide();
+            $(tabthree).hide();
+            $(tabfour).hide();
+            $(tabfive).show();  
+            $('#search-result').show();           
+            $(tabOne).hide();
+        }
+    });
+
+
+
+
+
+});
+</script>
+
+
+
+</body>
+</html>
